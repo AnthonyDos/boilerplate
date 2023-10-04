@@ -1,4 +1,4 @@
-const POKEMONS_LIST = "https://pokeapi.co/api/v2/pokemon/ditto";
+const POKEMONS_LIST = "https://pokeapi.co/api/v2/pokemon/";
 
 const PathHomePageApi = {
 	POKEMONS_LIST,

@@ -2,7 +2,7 @@ import HomePageAction from "./HomePageAction";
 
 
 const initialState = {
-	pokemons:[],
+	pokemons: null,
 	error:null,
 };
 

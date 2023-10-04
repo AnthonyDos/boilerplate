@@ -1,0 +1,43 @@
+$primary-color: #fff;
+$secondary-color: gray;
+$card-width: 200px;
+
+.container_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .card {
+    text-align: start;
+    border: 2px solid gray;
+    border-radius: 9px;
+    box-shadow: 4px 6px 10px 0;
+    margin: 3% 2%;
+    width: $card-width;
+
+    .data {
+      display: flex;
+      justify-content: space-around;
+      width: 68px;
+      margin: auto;
+    }
+
+    .container_img {
+      width: 30%;
+      margin: auto;
+    }
+
+    .img_pokemon {
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .container_card {
+    background-color: $primary-color;
+    .card {
+      background-color: $secondary-color;
+    }
+  }
+}
